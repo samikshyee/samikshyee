@@ -1,0 +1,18 @@
+# Clone the repository
+git clone https://github.com/samikshyee/MyPHPWebsite.git
+
+# Navigate to the cloned folder
+cd MyPHPWebsite
+
+# Create a PHP file (index.php)
+echo "<?php echo '<h1>Hello, PHP World!</h1>'; ?>" > index.php
+
+# Create an HTML file (about.html)
+echo "<html><body><h2>About Page</h2><p>This is an about page.</p></body></html>" > about.html
+
+# Add and commit the new files
+git add index.php about.html
+git commit -m "Added PHP and HTML files"
+
+# Push changes to GitHub
+git push origin main
